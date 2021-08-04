@@ -1,9 +1,22 @@
-function hello() {
-  console.log('hello, world');
+function strings() {
+  const s = 'Hello, word. I am a string';
+  console.log(s);
+}
+
+function booleans() {
+  const bool = false;
+  console.log(bool);
+}
+
+function arrays() {
+  const a = ['I', 'am', 'an', 'array'];
+  console.log(a);
 }
 
 function init() {
-  hello();
+  strings();
+  booleans();
+  arrays();
 }
 
 init();
