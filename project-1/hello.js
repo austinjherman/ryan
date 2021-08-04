@@ -1,5 +1,5 @@
 function strings() {
-  const s = 'Hello, word. I am a string';
+  const s = 'Hello, world. I am a string.';
   console.log(s);
 }
 
